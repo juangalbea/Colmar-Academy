@@ -1,0 +1,65 @@
+html {
+  font-size: 16px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.logo h3 {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding-left: 1rem;
+}
+
+/*main*/
+
+.main {
+  background-color: lightgrey;
+}
+
+.img img {
+  width: 60%;
+  display: block;
+}
+
+.img {
+  padding: 2rem 1.5rem;
+}
