@@ -1,5 +1,7 @@
 html {
   font-size: 16px;
+  font-family: sans-serif;
+  color: #505050;
 }
 
 strong {
@@ -8,18 +10,29 @@ strong {
 
 h1 {
   font-size: 3rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
 }
 
 h2 {
   font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
 }
 
 h3 {
   font-size: 2rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
 }
 
 h4 {
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 a {
@@ -27,6 +40,11 @@ a {
 }
 
 /*header*/
+
+header h3 span {
+  font-weight: 400;
+  color: #B0B0B0;
+}
 
 header {
   display: flex;
@@ -65,7 +83,7 @@ nav ul li {
   display: none;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
   .logo h3 {
     display: none;
   }
@@ -121,7 +139,7 @@ nav ul li {
 }
 
 .title button {
-  background-color: black;
+  background-color: #505050;
   color: white;
   border: 0px;
   padding: .5rem;
@@ -330,6 +348,7 @@ nav ul li {
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
+    align-items: center;
   }
 
   .box {
