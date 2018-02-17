@@ -10,8 +10,20 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 h4 {
   font-size: 1.5rem;
+}
+
+a {
+  color: blue;
 }
 
 /*header*/
@@ -53,13 +65,236 @@ nav ul li {
 
 .main {
   background-color: lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.main .img {
+  width: 60%;
+}
+
+.img1 {
+  padding: 2rem 1.5rem;
 }
 
 .img img {
-  width: 60%;
-  display: block;
+  width: 100%;
 }
 
-.img {
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  width: 25%;
+}
+
+.title h1 {
+  padding-bottom: 0.75rem;
+}
+
+.title h4 {
+  padding-bottom: 1.5rem;
+}
+
+.title button {
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: .5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .img1 img {
+    display: none;
+  }
+}
+
+/*practicing*/
+
+.practicing {
+  display: flex;
+  align-items: flex-start;
+}
+
+.practicing .one {
+  width: 60%;
+  border-right: 1px solid lightgrey;
+}
+
+.one-in {
   padding: 2rem 1.5rem;
+}
+
+.one-in .img {
+  padding-bottom: 2rem;
+}
+
+.text h2 {
+  padding-bottom: 1.5rem;
+}
+
+.text p {
+  padding-bottom: 2rem;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 1rem;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  transition: background-color 400ms ease-out;
+}
+
+.image {
+  width: 35%;
+  height: auto;
+}
+
+.image1 {
+  padding: 1rem;
+}
+
+.image img {
+  width: 100%;
+}
+
+.texto {
+  width: 65%;
+  padding-right: 1.5rem;
+}
+
+.texto h4 {
+  padding-bottom: .5rem;
+}
+
+.texto p {
+  padding-bottom: .5rem;
+}
+
+.select:hover {
+  background-color: lightgrey;
+}
+
+/*learning*/
+
+#learn {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.learning {
+  background-color: gainsboro;
+  padding-bottom: 1rem;
+}
+
+.learn {
+  display: flex;
+  justify-content: center;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+.box {
+  margin: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.box .img {
+  max-width: 100%;
+}
+
+.content  {
+  padding: 1rem;
+}
+
+.content p {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+/*thesis*/
+
+#thesis {
+  text-align: center;
+  padding: 2rem;
+}
+
+.thesis {
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+.left {
+  width: 60%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.video {
+  max-width: 100%;
+}
+
+.video video {
+  width: 100%;
+}
+
+.left h4 {
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.selection {
+  display: flex;
+  align-items: center;
+  transition: background-color 400ms ease-out;
+}
+
+.selection .img {
+  width: 35%;
+  height: auto;
+}
+
+.texts {
+  width: 65%;
+  padding-right: 1.5rem;
+}
+
+.img2 {
+  padding: 1rem;
+}
+
+.texts h4 {
+  padding-bottom: .5rem;
+}
+
+.selection:hover {
+  background-color: lightgrey;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  padding: 1rem 1.5rem 3.5rem 1.5rem;
+}
+
+.footer {
+  flex-grow: 1;
 }
